@@ -1,0 +1,33 @@
+{
+  "name": "vue-tree-menu",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gitn": "git add . && git commit -m 'modify' && git push origin && npm publish",
+    "sass": "cnpm install --save sass-loader node-sass",
+    "r": "cnpm install -S vue-useripple"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LDQ-first/vue-tree-menu.git"
+  },
+  "keywords": [
+    "vue",
+    "tree",
+    "menu",
+    "plugin"
+  ],
+  "author": "LDQ-first",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LDQ-first/vue-tree-menu/issues"
+  },
+  "homepage": "https://github.com/LDQ-first/vue-tree-menu#readme",
+  "dependencies": {
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue-useripple": "^1.1.5"
+  }
+}
